@@ -28,5 +28,19 @@ body {
 }
 .header {
   text-align: center;
-  margin: 0.4em;
+  margin: 1em;
+}
+
+blockquote {
+  border-left: 6px solid #ddd;
+  margin: 1.5em 0;
+  padding: 0.5em 1em;
+}
+
+blockquote.coach {
+  background-color: lightyellow;
+}
+
+blockquote.coach p {
+  font-weight: 400;
 }
